@@ -1,0 +1,174 @@
+body {
+    background: #204069;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  
+  .itemContainer {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    background: #ffffff;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    max-width: 800px;
+    color: black;
+    border-radius: 10px;
+    border: 1.5px solid #204069;
+    box-shadow: 3px 2px #2f353c;
+  }
+  
+  .itemImage {
+    width: 230px;
+  }
+  img {
+    border: 20px solid #f5f6f4;
+    border-radius: 3px;
+  }
+  
+  .imageContainer {
+    padding: 30px;
+    padding-top: 60px;
+  }
+  
+  .itemSummary {
+    padding: 30px;
+  }
+  
+  .description {
+    text-align: justify;
+  }
+  
+  .buttonsContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: right;
+    position: relative;
+    left: 280px;
+    bottom: 10px;
+    padding: 20px;
+    grid-gap: 20px;
+  }
+  
+  button {
+    background: #204069;
+    padding: 10px;
+    border-radius: 3px;
+    color: white;
+    font-family: Montserrat, sans-serif;
+    font-size: 1rem;
+  }
+  
+  .noButton {
+    background: #964f40;
+    border: 2px solid #964f40;
+  }
+  
+  .noButton:hover {
+    color: #964f40;
+    border: 2px solid #964f40;
+  }
+  .yesButton {
+    background: #688a2e;
+    border: 2px solid #688a2e;
+  }
+  
+  .yesButton:hover {
+    color: #688a2e;
+  }
+  
+  .yesButton:active {
+    border: 2px solid #688a2e;
+  }
+  button:hover {
+    background: white;
+    color: #204069;
+  }
+  
+  button:active {
+    transform: translateY(2px);
+  }
+  
+  body {
+    font-family: Montserrat, sans-serif;
+  }
+  .itemTitle {
+    font-family: "Source Sans Pro", cursive;
+  }
+  
+  .titleQuestion {
+    grid-column: 1 / span 2;
+    text-align: center;
+  }
+  
+  i {
+    font-size: 1.5rem;
+    width: 30px;
+    color: #204069;
+  }
+  
+  .film,
+  .itemTitle {
+    color: #204069;
+    text-transform: capitalize;
+  }
+  
+  .author {
+    font-style: italic;
+  }
+  
+  .fa-thumbs-down,
+  .fa-thumbs-up {
+    color: white;
+    text-align: left;
+    margin-right: 10px;
+  }
+  
+  button i.fa-thumbs-up:hover {
+    color: #688a2e;
+  }
+  
+  .yesButton:hover i.fa-thumbs-up,
+  .yesButton:hover {
+    color: #688a2e;
+  }
+  
+  .noButton:hover i.fa-thumbs-down {
+    color: #964f40;
+  }
+  
+  details p {
+    text-align: justify;
+  }
+  
+  .api-buttons {
+    position: fixed;
+    display: none;
+    flex-flow: column;
+  }
+  .api-buttons button {
+    border-radius: 5px;
+    margin-top: 3px;
+    width: 70px;
+    font-size: 0.75rem;
+  }
+  
+  #toggleButton {
+    border: none;
+    width: 70px;
+  }
+  
+  div#toggle {
+    display: none;
+  }
+  
+  #toggleIcon{
+    color: white;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  button:hover #toggleIcon {
+    color: #204069;
+  }
+  

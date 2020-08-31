@@ -1,0 +1,32 @@
+@media only screen and (max-width: 650px) {
+  body {
+    min-width: 360px;
+    background-color: #204069;
+  }
+  .imageContainer {
+    grid-column: 1 / span 2;
+    text-align: center;
+    padding: 5px;
+    margin-bottom: -15px;
+  }
+  .itemSummary {
+    grid-column: 1 / span 2;
+    text-align: center;
+  }
+  p.description {
+    padding: 20px;
+  }
+  .buttonsContainer {
+    grid-column: 1 / span 2;
+    left: auto;
+  }
+
+  details p {
+    padding: 20px;
+  }
+}
+@media only screen and (max-width: 960px) {
+  .api-buttons {
+    display: none;
+  }
+}

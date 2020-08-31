@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8">
+  <title>Library Item Recommendation</title>
+  <meta name="Item Recommendation System" content="name">
+  <meta name="description" content="Fetches book/movie data to find user interest.">
+  <link rel="stylesheet" href="./styles/main.css" type="text/css">
+  <link rel="stylesheet" href="./styles/mobile-styles.css" type="text/css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+  </head>
+  <body onload="onLoadMethods()">
+    <button id="toggleButton" onclick="toggleButtons()"><i id="toggleIcon" class="fas fa-toggle-off"></i></button>
+    <div class="api-buttons" id="toggle">
+      <button onclick="getItems()">Fetch</button>
+      <button onclick="postReview()">POST</button>
+      <button onclick="loadApp()">Load App</button> 
+    </div>
+    <div id="app"></div>
+  <script src="./scripts/main.js"></script>
+  </body>
+</html>
